@@ -17,3 +17,6 @@ CSS动效集锦
 
 ## 圆环进度
 ![Image text](https://github.com/penghuwan/css3-collection/blob/master/demoImage/progress.gif)
+
+## 梵唱佛光
+![Image text](https://github.com/penghuwan/css3-collection/blob/master/demoImage/light.gif)
