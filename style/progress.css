@@ -1,0 +1,56 @@
+
+@keyframes left_cirlce_spin {
+    0%,50% {
+      transform: rotate(-45deg);
+    }
+    100%{
+      transform: rotate(135deg); 
+    }
+}
+@keyframes right_cirlce_spin {
+    0% {
+      transform: rotate(45deg);
+    }
+    50%,100%{
+      transform: rotate(225deg); 
+    }
+}
+.progress {
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+}
+.progress .wrapper-circle {
+    overflow: hidden;
+    width: 50%;
+    height: 100%;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.progress {
+    margin: 20px;
+}
+.progress .circle {
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+}
+.progress .left .circle {
+    float: left;
+    border: 5px solid red;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    animation: left_cirlce_spin 4s linear infinite;
+}
+
+.progress .right .circle {
+    float: right;
+    border: 5px solid red;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    animation: right_cirlce_spin 4s linear infinite;
+}

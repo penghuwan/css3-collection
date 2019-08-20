@@ -1,0 +1,14 @@
+.common-img {
+    width: 100px;
+}
+.blur {
+    width: 100px;
+    filter: url(blur.svg#blur); /* FireFox, Chrome, Opera */
+    
+    -webkit-filter: blur(2px); /* Chrome, Opera */
+       -moz-filter: blur(2px);
+        -ms-filter: blur(2px);    
+            filter: blur(2px);
+    
+    filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=2, MakeShadow=false); /* IE6~IE9 */
+}

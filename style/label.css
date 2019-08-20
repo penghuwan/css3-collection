@@ -1,0 +1,15 @@
+.label {
+    position: relative;
+    overflow: hidden;
+}
+.label-bar {
+    text-align: center;
+    background: red;
+    position: absolute;
+    top:80px;
+    left: 0px;
+    width: 141px;
+    height:20px;
+    transform-origin: 0 100%;
+    transform: rotate(-45deg);
+}

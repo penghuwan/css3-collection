@@ -1,0 +1,17 @@
+
+
+@keyframes small {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(0.4);
+    }
+}
+.ball {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: blueviolet;  
+  animation: small 2s ease-in-out infinite alternate;
+}

@@ -1,0 +1,15 @@
+.background-gradient {
+    background: rgb(44, 136, 207);
+    position: relative;
+    width: 500px;
+    height: 200px;
+}
+.background-gradient .mask {
+    background-image: linear-gradient(to right, rgb(44, 136, 207), transparent), url("https://pic1.zhimg.com/50/v2-6c5aa2304a93b7fbaf903e3560543d7b_hd.jpg");
+    background-position:center;
+    background-blend-mode:normal;
+    position: absolute;
+    height: 100%;
+    width: 180px;
+    right: 0;
+}
