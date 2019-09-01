@@ -1,0 +1,9 @@
+.sticky {
+    z-index: 100;
+    width: 500px;
+    height: 20px;
+    background: red;
+    position:sticky;
+    position: -webkit-sticky;
+    top:0px; 
+}

@@ -1,0 +1,18 @@
+.hole-wrapper {
+    /* 兼容性问题啊兄弟，兼容不优雅，优雅不兼容 */
+    overflow: hidden;
+    position: relative;
+    width: 300px;
+    height: 70px;
+    background: white;
+}
+.hole {
+    border-radius: 50%;
+    background: blue;
+    position: absolute;
+    bottom:0;
+    left:50%;
+    margin-left: -200px;
+    width: 400px;
+    height:400px;
+}
